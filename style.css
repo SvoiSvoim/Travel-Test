@@ -203,14 +203,13 @@ ul>li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 977px;
+    height: 959px;
     /* background-size: 1640px; */
 }
 
 .places {}
 
 .places__container {
-    border: #00B43D solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -228,21 +227,26 @@ ul>li {
 }
 
 .places__slider {
-    border: yellow solid;
     padding: 54px 42px;
     position: relative;
     width: 100%;
 }
 
 .places__list {
-    border: #FEE4E2 solid;
     display: flex;
     justify-content: space-between;
+    column-gap: 24px;
 }
 
+.places__list:last-child {
+    column-gap: 0px;
+}
+
+
 .places__item {
-    border: rebeccapurple solid;
     width: 320px;
+    height: 586px;
+    background-color: rgba(88, 88, 88, 0.5);
 }
 
 .card {}
@@ -250,6 +254,7 @@ ul>li {
 .card__img {
     width: 100%;
     height: 252px;
+    padding: 24px;
 }
 
 .places__img {
@@ -258,18 +263,86 @@ ul>li {
     object-fit: cover;
 }
 
-/* .card__img {
-    height: 252px;
-    width: 272px;
-    object-fit: contain;
-} */
+.card__desc {
+    padding-left: 24px;
+    padding-right: 74px;
+}
 
-.card__desc {}
+.card__name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
 
-.card__name {}
+.card__info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
 
-.card__info {}
+.card__more {
+    padding-left: 176px;
+    padding-right: 24px;
+    padding-top: 52px;
+}
 
-.card__more {}
+.card__btn {
+    width: 96px;
+    height: 39px;
+    background-color: rgba(78, 78, 78, 0.45);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
 
-.card__btn {}
+/* BOX2 + PLACES END */
+
+/* BOX3 START */
+
+.box3 {
+    background-image: url(/img/BackGround/Fon\ Section\ 3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 915px;
+}
+
+.about {}
+
+.about__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 125px 120px;
+}
+
+.about__tile {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.about__info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+/* BOX3 END */
